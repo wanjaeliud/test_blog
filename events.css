@@ -1,0 +1,211 @@
+/*!* intro  *!*/
+/*.intro{*/
+/*    !*position: relative;*!*/
+/*    !* text-align: center; *!*/
+/*    margin-top: 90px;*/
+/*    color: white;*/
+/*}*/
+
+/*p {*/
+/*    font-size: 180%;*/
+/*}*/
+.intro > img {
+    width: 100%;
+    max-height: 100%;
+    height: 600px;
+}
+/*.intro .text {*/
+/*    !*position: absolute;*!*/
+/*    top: 50%;*/
+/*    left: 30%;*/
+/*    transform: translate(-50%, -50%);*/
+/*}*/
+/*.intro .text h3{*/
+/*    color: yellow;*/
+/*}*/
+/*.intro .postBtn{*/
+/*    !*position: absolute;*!*/
+/*    top: 50%;*/
+/*    left: 70%;*/
+/*    transform: translate(-50%, -50%);*/
+/*}*/
+/*.post {*/
+/*    background-color: green;*/
+/*    color: white;*/
+/*    padding: 10px;*/
+/*    border-radius: 10px;*/
+/*}*/
+
+/*.upcomingEvents {*/
+/*    !*position: absolute;*!*/
+/*    width: 90%;*/
+/*    left: 57px;*/
+/*    margin-top: 50px;*/
+/*}*/
+/*.upcomingEvents .title {*/
+/*    !*position: absolute;*!*/
+/*    !* left: 57px; *!*/
+/*    height: 50px;*/
+/*}*/
+/*.upcomingEvents .title .rect {*/
+/*    position: absolute;*/
+/*    width: 130px;*/
+/*    height: 40px;*/
+/*    !* left: 57px; *!*/
+/*    background: rgba(196, 196, 196, 0.3);*/
+/*}*/
+/*.upcomingEvents .title p {*/
+/*    !*position: absolute;*!*/
+/*    width: 216px;*/
+/*    height: 29px;*/
+/*    !* left: 61px; *!*/
+/*    font-family: 'Inter';*/
+/*    font-style: normal;*/
+/*    font-weight: 400;*/
+/*    font-size: 24px;*/
+/*    line-height: 29px;*/
+/*    color: #000000;*/
+/*}*/
+
+/*!* card *!*/
+/*.cards {*/
+/*    !*position: absolute;*!*/
+/*    width: 100%;*/
+/*}*/
+/*.card {*/
+/*    !*position: absolute;*!*/
+/*    width: 30%;*/
+/*    height: 400px;*/
+/*    border: 1px solid gray;*/
+/*    border-radius: 10px;*/
+/*    top: 60px;*/
+/*}*/
+/*.cardImg {*/
+/*    position: absolute;*/
+/*    height: 200px;*/
+/*    width: 100%;*/
+/*}*/
+/*.cardImg img {*/
+/*    width: 100%;*/
+/*    height: 200px;*/
+/*    border: 5px solid green;*/
+/*}*/
+/*.freebtn {*/
+/*    position: absolute;*/
+/*    top: 50%;*/
+/*    left: 90%;*/
+/*    transform: translate(-50%, -50%);*/
+/*}*/
+/*.free {*/
+/*    background-color: green;*/
+/*    color: white;*/
+/*    padding-top: 5px;*/
+/*    padding-right: 15px;*/
+/*    padding-left: 15px;*/
+/*    padding-bottom: 5px;*/
+/*}*/
+/*.card_body {*/
+/*    position: absolute;*/
+/*    top: 210px;*/
+/*    display: flex;*/
+/*    align-content: space-around;*/
+/*}*/
+/*.card_body h4 {*/
+/*    margin-left: 20px;*/
+/*}*/
+/*.cardText {*/
+/*    margin-left: 50px;*/
+/*}*/
+/*!*.icons {*!*/
+/*!*    position: absolute;*!*/
+/*!*    top: 350px;*!*/
+/*!*    display: flex;*!*/
+/*!*    left: 30%;*!*/
+/*!*}*!*/
+/*!*.icons ul li {*!*/
+/*!*    display: inline-block;*!*/
+/*!*    padding-left: 20px;*!*/
+/*!*}*!*/
+
+/*.hline{*/
+/*    height: 20px;*/
+/*}*/
+/*#socio {*/
+/*    color: green;*/
+/*}*/
+
+/*.card2 {*/
+/*    position: absolute;*/
+/*    width: 30%;*/
+/*    height: 400px;*/
+/*    border: 1px solid grey;*/
+/*    border-radius: 10px;*/
+/*    top: 60px;*/
+/*    left: 35%;*/
+/*}*/
+
+/*.card3 {*/
+/*    position: absolute;*/
+/*    width: 30%;*/
+/*    height: 400px;*/
+/*    border: 1px solid grey;*/
+/*    border-radius: 10px;*/
+/*    top: 60px;*/
+/*    left: 70%;*/
+/*}*/
+/*.cards2 {*/
+/*    position: absolute;*/
+/*    width: 100%;*/
+/*    top: 450px;*/
+/*}*/
+
+/*@media screen and (max-width:1200px){*/
+/*    .cards, .cards2 {*/
+/*        font-size: small;*/
+/*    }*/
+/*}*/
+/*@media screen and (max-width:1100px){*/
+/*    .intro .postBtn{*/
+/*        position: absolute;*/
+/*        top: 50%;*/
+/*        left: 80%;*/
+/*        transform: translate(-50%, -50%);*/
+/*    }*/
+/*    .intro .text {*/
+/*        position: absolute;*/
+/*        top: 50%;*/
+/*        left: 40%;*/
+/*        transform: translate(-50%, -50%);*/
+/*    }*/
+/*    .freebtn {*/
+/*        position: absolute;*/
+/*        top: 50%;*/
+/*        left: 88%;*/
+/*        transform: translate(-50%, -50%);*/
+/*    }*/
+/*}*/
+/*@media screen and (max-width: 950px){*/
+/*    .freebtn {*/
+/*        position: absolute;*/
+/*        top: 50%;*/
+/*        left: 87%;*/
+/*        transform: translate(-50%, -50%);*/
+/*    }*/
+/*    .cardText {*/
+/*        margin-left: 30px;*/
+/*    }*/
+/*}*/
+/*@media screen and (max-width: 890px){*/
+/*    .cards, .cards2 {*/
+/*        font-size: smaller;*/
+/*    }*/
+/*    .freebtn {*/
+/*        position: absolute;*/
+/*        top: 50%;*/
+/*        left: 86%;*/
+/*        transform: translate(-50%, -50%);*/
+/*    }*/
+/*    .cardText {*/
+/*        margin-left: 15px;*/
+/*    }*/
+/*}*/
